@@ -1,6 +1,6 @@
 #include "sort.h"
 
-
+//dong:插入排序的实现
 void insertSort(int *arr, int len)
 {
 	int i, j;
