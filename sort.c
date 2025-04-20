@@ -1,16 +1,12 @@
 #include "sort.h"
 
-//dong:插入排序的实现
-void insertSort(int *arr, int len)
+void qSort(int *arr, int len)
 {
-	int i, j;
-	int tmp;
-	for(i = 1; i < len; ++i)
-	{
-		tmp = arr[i];
-		for(j = i; j >= 1 && arr[j - 1] > tmp; --j)
-			arr[j] = arr[j - 1];
-		arr[j] = tmp;
-	}
-	
+	...
+}
+
+//dong:快速排序的实现
+void quickSort(int *arr, int len)
+{
+	qSort(arr, len - 1);
 }
